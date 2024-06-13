@@ -1,0 +1,84 @@
+/* tag universal de espacamento e alinhamento 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navegação do site */
+nav {
+    background-image: url(imagens/logo.png);
+    background-size: cover;
+}
+
+/* container com margem esquerda e direita com 150px e cor de fundo cinza com fonte arial */
+#container {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* tamanho de letra de 25px */
+.titulo {
+    font-size: 25px;
+}
+
+/* espacamento da esquerda e direita com 20px e com letra em negrito */
+#formulario {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+/* espacamento esquerdo de 20px */
+.campo {
+    padding-left: 20px;
+}
+
+/* representa um rótulo para o conteúdo do seu ancestral */
+legend {
+    padding-left: 20px;
+}
+
+/* representa um controle que apresenta um menu de opções */
+select {
+    width: 100px;
+}
+
+/* espacamento esquerdo de 20px */
+#centralizar_tecnologias {
+    padding-left: 20px;
+}
+
+/* altura de 150px e largura de 500px */
+#aumentar_caixatexto {
+    width: 500px;
+    height: 150px;
+}
+
+/* altura de 45px e largura de 130px com cor de fundo preta e cor da letra preta com fonte arial de tamanho 20px */
+#botao {
+    width: 130px;
+    height: 45px;
+    background-color: yellow;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* alinha ao centro*/
+#centralizarBotao {
+    text-align: center;
+}
+
+/* espacamento esquerdo de 20px */
+#espacamentoCaixatexto {
+    padding-left: 20px;
+}
+
+/* coloca uma imagem que vai do lado esquerdo ao direito */
+footer {
+    background-image: url(imagens/rodape.png);
+    background-size: cover;
+}
+

@@ -1,0 +1,160 @@
+<!-- 
+    Este projeto é desenvolvido em conjunto com a disciplina de Programação Web I da Etec Polivalente de Americana 
+    e tem como a finalidade de estudar e aprofundar os conhecimentos  em HTML, CSS e JS.
+
+    Autores: Samuel Vieira Freitas Dos Reis
+    Turma: 1° AMS
+    Data: 13/06/2024
+ -->
+
+ <!DOCTYPE html>
+ <html lang="pt-br">
+     <head>
+             <!-- Required meta tags -->
+             <meta charset="utf-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+             <!-- Sobre o WebSite -->
+ 
+             <title>Formulário com CSS</title>
+             <link rel="icon" href="">
+             <meta name="author" content="">
+             <meta name="description" content="">
+             <meta name="keywords" content="">
+             <link rel="stylesheet" href="style.css">
+         </head>
+  
+     <body>
+     
+         <!-- Cabeçalho -->
+ 
+         <header>
+ 
+             <!-- Navegação do site -->
+             <nav>
+ 
+                 <img src="imagens/logo.png" alt="">
+                 
+             </nav>
+ 
+         </header>
+ 
+         <br><br>
+
+         <!-- Conteúdo Principal -->
+         <main id="container">
+           
+            <form id="formulario">
+                <fieldset>
+                    <legend class="titulo">Detalhes de contato</legend>
+    
+                    <br>
+
+                    <div class="campo">
+                        <label for="nome">Nome:</label>
+                        <br>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <br><br>
+                    <div class="campo">
+                        <label for="sobrenome">Sobrenome:</label>
+                        <br>
+                        <input type="text" name="sobrenome" id="sobrenome">
+                    </div>
+                    <br><br>
+                    <div class="campo">
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <br><br>
+                    <div class="campo">
+                        <label for="github">GitHub:</label>
+                        <br>
+                        <input type="text" name="github" id="github">
+                    </div>
+                    <br>
+                </fieldset>
+
+                <br><br><br>
+                
+                <fieldset>
+                    <legend class="titulo">Informações Desenvolvimento</legend>
+                    <br><br>
+                    <div class="campo">
+                        <label>De qual lado da aplicação você desenvolve:</label>
+                        <br><br>
+                        <input type="radio" name="devweb" value="froentend" checked>Front-end
+                        <input type="radio" name="devweb" value="backend">Back-end
+                        <input type="radio" name="devweb" value="fullstack">FullStack
+                    </div>
+                   
+                    <br>
+
+                    <div class="campo">
+                        <label for="senioridade">Senioridade:</label>
+                        <br><br>
+
+                        <select>
+                            <option selected disabled value="">Selecione</option>
+                            <option>Junior</option>
+                            <option>Pleno</option>
+                            <option>Senior</option>
+                        </select>
+                    </div>
+                    
+                    <br><br>
+
+                    <div id="centralizar_tecnologias">
+                        <label class="titulo">Selecione as tecnologias que você utiliza:</label>
+                        <br><br> 
+                        <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                        <label for="tecnologi1">HTML</label>
+                        <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                        <label for="tecnologi1">CSS</label>
+                        <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Javascript">
+                        <label for="tecnologi1">Javascript</label>
+                        <input type="checkbox" id="tecnologia3" name="tecnologia4" value="PHP">
+                        <label for="tecnologi1">PHP</label>
+                        <input type="checkbox" id="tecnologia3" name="tecnologia5" value="C#">
+                        <label for="tecnologi1">C#</label>
+                        <input type="checkbox" id="tecnologia4" name="tecnologia6" value="Python">
+                        <label for="tecnologi1">Python</label>
+                        <input type="checkbox" id="tecnologia5" name="tecnologia7" value="Java">
+                        <label for="tecnologi1">Java</label>
+                    </div>
+                    <br>
+                </fieldset>
+    
+                <br><br><br>
+
+                <fieldset id="espacamentoCaixatexto">
+                    <legend class="titulo">Conte um pouco de sua experência:</legend>
+                    <br>
+                    <textarea id="aumentar_caixatexto" name="experiencia"></textarea>
+                    <br>
+                </fieldset>
+                
+                <br><br><br>
+
+                <div id="centralizarBotao">
+                <button id="botao" type="submit">Concluido</button>
+                </div>
+
+                <br><br><br>
+
+            </form>
+    
+            </main>
+    
+        
+ 
+         <!-- Rodape -->
+         <footer>
+             
+            <img src="imagens/rodape.png" alt="">
+
+         </footer>
+ 
+     </body>
+ </html>
